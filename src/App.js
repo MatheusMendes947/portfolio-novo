@@ -1,6 +1,19 @@
-import logo from './logo.svg';
+// import React from 'react';
 import './App.css';
-import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home';
+
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="./pages/home/Home" exact component={Home} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App;
 
 
 function App() {
@@ -8,13 +21,14 @@ function App() {
 
 
     <div className="App">
-      <Sidebar>
-        <Menu>
-          <MenuItem href='/contato'> Documentation </MenuItem>
-          <MenuItem> Calendar </MenuItem>
-        </Menu>
-      </Sidebar>
+      <p>meu deus</p>
     </div>
+
+//     <Router>
+//       <Routes>
+//         <Route path="./pages/home/Home" exact component={Home} />
+//       </Routes>
+//     </Router>
   );
 }
 
